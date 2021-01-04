@@ -25,6 +25,9 @@ function App() {
       <Button secondary>
         Secondary
       </Button>
+      <Button large>
+        Secondary
+      </Button>
     </>
   );
 }
