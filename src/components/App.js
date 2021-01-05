@@ -1,7 +1,8 @@
 import React from 'react';
-import { Button } from 'components/common'
 import { createGlobalStyle } from 'styled-components';
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
+import Login from 'components/pages/Login';
+import Home from 'components/pages/Home'
 
 
 const GlobalStyle = createGlobalStyle`

@@ -1,10 +1,11 @@
-import React from 'react'
+import React from 'react';
+import { PageLayout } from 'components/common'
 
 export default function Login() {
 
   return (
-    <div>
-      Login
-    </div>
+    <PageLayout>
+      Home
+    </PageLayout>
   )
 };
