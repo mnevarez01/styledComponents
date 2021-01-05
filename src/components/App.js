@@ -26,7 +26,7 @@ function App() {
         Secondary
       </Button>
       <Button large>
-        Secondary
+        large
       </Button>
     </>
   );

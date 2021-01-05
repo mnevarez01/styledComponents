@@ -6,19 +6,20 @@ const Button = styled.button`
   secondary
 }) => secondary ? "black" : "#f8049c"} ;
   font-weight: bold;
-  ${({ lagre }) => {
+  ${({ large }) =>
     large ?
       css`
     padding: 10px;
     border-radius: 5px;
     font-size: 1.5em;
-    `:
+    `
+      :
       css`
      padding: 8px;
      border-radius: 4px;
      font-size: 1em;
      `
-  }}
+  }
  
   box-shadow: none;
   border: none;
